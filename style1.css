@@ -1,0 +1,194 @@
+/* contorl all the browser margins */
+body {
+  margin: 3vh;
+}
+
+/* h4,
+  .nav-button,
+  .hero-description {
+    font-family: "Poppins";
+  } */
+
+/* .container {
+    padding: 60px;
+  } */
+
+/* section */
+.navbar {
+  display: flex;
+}
+
+/* navbar */
+.navbar-container {
+  display: flex;
+  /* Below line take cares of space between logo, Menu, Search */
+  justify-content: space-between;
+}
+
+/*  */
+.list {
+  display: flex;
+  list-style: none;
+}
+
+/* list item */
+.list-item {
+  /* margin right taking care of seperation of home male female */
+  margin-right: 30px;
+  list-style: none;
+  font-size: 25px;
+  /* font-weight: 500; */
+}
+
+.button-group {
+  display: flex;
+  /* will take care of gap between search icon and search button */
+  gap: 30px;
+  margin-top: 10px;
+}
+
+.nav-button {
+  border: 2px solid #000;
+  background-color: transparent;
+  padding: 6px 40px;
+  border-radius: 9px;
+  font-size: 15px;
+}
+
+.hero-container {
+  display: flex;
+  /* No difference observed with Space between */
+  justify-content: space-between;
+}
+
+.square {
+  position: absolute;
+  left: 300px;
+  top: 500px;
+  z-index: 0;
+}
+
+.men {
+  z-index: 1;
+  display: block;
+  position: absolute;
+  left: 80px;
+  top: 160px;
+}
+
+.star {
+  position: absolute;
+  top: 30%;
+  left: 85%;
+}
+
+.globe {
+  position: absolute;
+  left: 55%;
+  top: 20%;
+}
+
+.contact-heading {
+  position: absolute;
+  top: 82%;
+  left: 66%;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+.icons {
+  position: absolute;
+  top: 88%;
+  left: 63%;
+}
+.icons img {
+  width: 30px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.hero-description {
+  text-align: center;
+  padding: 5px 200px;
+  position: absolute;
+  left: 35%;
+  top: 50%;
+  font-family: sans-serif;
+  font-size: 1.3rem;
+  font-weight: lighter;
+  color: #808080;
+}
+
+.hero-heading {
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 45%;
+  font-size: 4rem;
+}
+
+h1,
+.nav-button,
+.hero-description {
+  font-family: "Poppins";
+}
+li,
+.hero-heading,
+.button-join,
+.button-email {
+  font-family: "Orbitron";
+}
+
+.button-email {
+  position: absolute;
+  top: 67%;
+  left: 55%;
+  border: 2px solid #000;
+  background-color: transparent;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.button-join {
+  position: absolute;
+  top: 67%;
+  left: 70%;
+  border: 2px solid #000;
+  background-color: #000;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.star2 {
+  position: absolute;
+  top: 80%;
+  left: 40%;
+}
+
+.list-item:nth-child(1) {
+  display: inline-block;
+  position: relative;
+
+  font-weight: bold;
+  font-weight: 10px;
+}
+
+.list-item::before {
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 2px;
+  bottom: 0;
+  left: 11%;
+  border-bottom: 2px solid #000;
+}
+.navbar-container .list li {
+  margin: 0vh 2vh;
+  padding: 0vh;
+  font-size: 3vh;
+  font-weight: 500;
+}
